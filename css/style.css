@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+  padding: 0;
+  font:inherit;
+}
+
+.red{
+    color: red;
+}
+
+body{
+    letter-spacing: 0.5em;
+}
+
+.container {
+    margin: 15px;
+}
